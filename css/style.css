@@ -375,6 +375,8 @@ Works
 }
 
 .article-img {
+  width: 40vw;
+  margin: 40px auto;
   margin-bottom: 20px;
 }
 
