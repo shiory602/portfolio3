@@ -80,11 +80,12 @@ layout
 見出し
 ---------------------------------*/
 .title {
-  font-size: 72px;
+  font-size: 48px;
   font-family: "mrblaketon-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
+  margin-top: 72px;
   margin-bottom: 10px;
   text-align: center;
   text-transform: capitalize;
@@ -103,7 +104,7 @@ layout
 .lead {
   margin-bottom: 30px;
   font-size: 14px;
-  text-align: center;
+  /* text-align: center; */
 }
 .header-inner {
   background-size: 100%;
@@ -276,6 +277,7 @@ Works
 /*--------------------------------
  About
 ---------------------------------*/
+
 .profile {
   display: flex;
   flex-wrap: wrap;
@@ -293,6 +295,11 @@ Works
 .profile-body {
   flex: 1;
 }
+.profile-body p span {
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 5px;
+}
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -300,6 +307,14 @@ Works
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+.career {
+  display: flex;
+  margin-top: 60px;
+}
+.career p {
+  width: 50%;
+  padding: 0 10px;
 }
 
 /*--------------------------------
@@ -636,6 +651,7 @@ Works
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
   }
+
 
   /* コンタクト */
   .lead {
