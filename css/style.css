@@ -63,6 +63,7 @@ li {
 
 
 
+
 /*-------------
 layout
  ------------ */
@@ -596,18 +597,18 @@ Works
 
   .works-list {
     margin: 0 auto;
-    flex-direction: column;
+    display: flex;
     justify-content: space-between;
   }
 
   .works-item {
-    width: 70%;
+    width: 40%;
     margin: 40px auto;
     margin-bottom: 80px;
   }
 
   .works-item:nth-of-type(3n) {
-    margin: 0 auto;
+    margin-right: 0;
   }
 
   /* Skill */
@@ -650,6 +651,13 @@ Works
 
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .career {
+    display: block;
+  }
+  .career p {
+    width: 100%;
   }
 
 
