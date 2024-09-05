@@ -24,7 +24,7 @@ a:hover {
 .btn a{
   display: block;
   text-align: center;
-  width: 200px;
+  width: 260px;
   background-color: #EE827C;
   color: #f2f2f2;
   border-radius: 50px;
@@ -231,14 +231,10 @@ Works
 }
 
 .works-name {
-  /* font-size: 12px; */
   font-weight: bold;
   margin-top: 8px;
 }
 
-.works-info {
-  /* font-size: 10px; */
-}
 
 /*--------------------------------
  Skill
