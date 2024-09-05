@@ -2,7 +2,7 @@ body {
   font-family: "fot-klee-pro","Cormorant Garamond","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #403124;
@@ -24,7 +24,7 @@ a:hover {
 .btn a{
   display: block;
   text-align: center;
-  width: 170px;
+  width: 200px;
   background-color: #EE827C;
   color: #f2f2f2;
   border-radius: 50px;
@@ -37,9 +37,9 @@ a:hover {
   box-shadow: none;
   transform: translate(3px, 2%);
 }
-.btn a h3 {
+/* .btn a h3 {
   font-size: 16px;
-}
+} */
 
 img {
   max-width: 100%;
@@ -104,7 +104,7 @@ layout
 
 .lead {
   margin-bottom: 30px;
-  font-size: 14px;
+  /* font-size: 14px; */
   /* text-align: center; */
 }
 .header-inner {
@@ -123,7 +123,7 @@ layout
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
-  font-size: 160px;
+  font-size: 48px;
   opacity: 0.8;
   line-height: 320px;
 }
@@ -231,13 +231,13 @@ Works
 }
 
 .works-name {
-  font-size: 12px;
+  /* font-size: 12px; */
   font-weight: bold;
   margin-top: 8px;
 }
 
 .works-info {
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 
 /*--------------------------------
@@ -262,7 +262,7 @@ Works
   margin: 0 auto;
 }
 .skill-img>i {
-  font-size: 48px;
+  /* font-size: 48px; */
 }
 
 .skill-body {
@@ -272,7 +272,7 @@ Works
 
 .skill-name {
   margin-bottom: 3px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 /*--------------------------------
@@ -297,7 +297,7 @@ Works
   flex: 1;
 }
 .profile-body p span {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 800;
   margin-right: 5px;
 }
@@ -403,7 +403,7 @@ Works
 }
 
 .article-info-title {
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 
 .article-body img {
@@ -422,7 +422,7 @@ Works
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
   body {
-    font-size: 13px;
+    /* font-size: 13px; */
     line-height: 1.7;
   }
 
@@ -440,7 +440,7 @@ Works
     margin-bottom: 10px;
   }
   .subtitle {
-    font-size: 14px;
+    /* font-size: 14px; */
     margin-bottom: 40px;
   }
   .header-img {
@@ -467,7 +467,7 @@ Works
   }
 
   .header-title {
-    font-size: 80px;
+    /* font-size: 80px; */
     margin-bottom: 10px;
   }
 
@@ -478,10 +478,10 @@ Works
 
   .sub-header-title {
     font-family: "Dancing Script", cursive;
-    font-size: 24px;
+    /* font-size: 24px; */
   }
   .sub-header-subtitle {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
 
   /* グローバルナビ */
@@ -494,7 +494,7 @@ Works
   }
 
   .gnav-logo {
-    font-size: 15px;
+    /* font-size: 15px; */
   }
 
   .gnav-item:not(:last-child) {
@@ -502,7 +502,7 @@ Works
   }
 
   .gnav-item a {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   .gnav-item a:after {
@@ -592,7 +592,7 @@ Works
   }
 
   .works-name {
-    font-size: 10px;
+    /* font-size: 10px; */
   }
 
   .works-list {
@@ -635,7 +635,7 @@ Works
   
   .skill-name {
     margin-bottom: 3px;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   /* About */
@@ -663,7 +663,7 @@ Works
 
   /* コンタクト */
   .lead {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
   .twitter {
     width: 300px;
