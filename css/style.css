@@ -114,19 +114,21 @@ layout
   top: 0;
   width: 100%;
   height: 100vh;
-  opacity: 0.1;
+  opacity: 0.15;
 }
 .header-title {
-  margin: 160px 60px 80px 60px;
+  margin: 292px auto;
   background-size: 100%;
   color: #fff;
-  font-family: "mrblaketon-pro", sans-serif;
-  font-weight: 500;
+  font-family: "linotype-didot", serif;
+  font-weight: 700;
   font-style: normal;
+  /* font-family: "mrblaketon-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal; */
   text-transform: capitalize;
-  font-size: 104px;
-  opacity: 0.8;
-  line-height: 320px;
+  font-size: 56px;
+  text-align: center;
 }
 .first {
   bottom: 0;
@@ -464,6 +466,7 @@ Works
 
   .header-inner {
     padding: 0 20px;
+    height: 1920px;
   }
 
   .header-title {
