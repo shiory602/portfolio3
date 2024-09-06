@@ -104,7 +104,7 @@ layout
 
 .lead {
   margin-bottom: 30px;
-  /* font-size: 14px; */
+  font-size: 16px;
   /* text-align: center; */
 }
 .header-inner {
@@ -233,6 +233,7 @@ Works
 .works-name {
   font-weight: bold;
   margin-top: 8px;
+  margin-bottom: 0;
 }
 
 
@@ -446,11 +447,11 @@ Works
 
   /* レイアウト */
   .section {
-    padding: 60px 0;
+    padding: 0;
   }
 
   .inner {
-    padding: 0 20px;
+    padding: 0 20px 60px;
   }
 
   /*  header */
@@ -588,7 +589,7 @@ Works
   }
 
   .works-name {
-    /* font-size: 10px; */
+    font-size: 16px;
   }
 
   .works-list {
@@ -598,9 +599,9 @@ Works
   }
 
   .works-item {
-    width: 40%;
-    margin: 40px auto;
-    margin-bottom: 80px;
+    width: 48%;
+    /* margin: 40px auto;
+    margin-bottom: 80px; */
   }
 
   .works-item:nth-of-type(3n) {
@@ -659,7 +660,7 @@ Works
 
   /* コンタクト */
   .lead {
-    /* font-size: 12px; */
+    font-size: 16px;
   }
   .twitter {
     width: 300px;
