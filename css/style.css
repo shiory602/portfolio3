@@ -117,13 +117,14 @@ layout
   opacity: 0.1;
 }
 .header-title {
+  margin: 160px 60px 80px 60px;
   background-size: 100%;
   color: #fff;
   font-family: "mrblaketon-pro", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   text-transform: capitalize;
-  font-size: 48px;
+  font-size: 104px;
   opacity: 0.8;
   line-height: 320px;
 }
@@ -134,9 +135,10 @@ layout
 }
 
 .header-img {
+  margin-top: -24px;
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/header-img.png"); /* 画像 */
+  background-image: url("../img/header-img.jpg"); /* 画像 */
   background-size: cover;               /* 全画面 */
   background-attachment: fixed;         /* 固定 */
   background-position: center center;
@@ -441,6 +443,7 @@ Works
     margin-bottom: 40px;
   }
   .header-img {
+    background-image: url("../img/header-img-SP.jpg"); /* 画像 */
     position: absolute;
     top: 0;
   }
@@ -464,7 +467,7 @@ Works
   }
 
   .header-title {
-    /* font-size: 80px; */
+    font-size: 60px;
     margin-bottom: 10px;
   }
 
