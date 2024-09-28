@@ -397,6 +397,15 @@ Works
   margin-bottom: 20px;
 }
 
+.article-img-line {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
+.article-img-line img{
+  max-width: 30%;
+}
+
 .article-body {
   max-width: 720px;
   margin: 0 auto;
