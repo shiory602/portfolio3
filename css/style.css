@@ -39,6 +39,13 @@ a:hover {
 }
 .btn_bottom {
   margin-bottom: 0;
+  font-family: "linotype-didot", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.btn_line {
+  background-color: #0a980acc!important;
 }
 
 img {
