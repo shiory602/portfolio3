@@ -95,7 +95,6 @@ layout
   font-weight: 400;
   font-style: normal;
   line-height: 1;
-  margin-top: 72px;
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -310,7 +309,7 @@ Works
   display: flex;
   flex-wrap: wrap;
   max-width: 640px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 .profile-img {
   width: 25%;
@@ -323,8 +322,13 @@ Works
 .profile-body {
   flex: 1;
 }
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
 .profile-body p span {
-  /* font-size: 18px; */
   font-weight: 800;
   margin-right: 5px;
 }
@@ -341,8 +345,9 @@ Works
   margin-top: 60px;
 }
 .career p {
-  /* width: 50%; */
-  padding: 0 10px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 60px 10px;
 }
 
 .a-font {
