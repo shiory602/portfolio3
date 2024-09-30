@@ -61,14 +61,16 @@ li {
   display: none;
 }
 
-
+.space {
+  margin-bottom: 120px;
+}
 
 
 /*-------------
 layout
  ------------ */
 .section {
-  padding: 100px 0 100px;
+  padding: 100px 40px 100px;
 }
 
 .inner {
@@ -119,10 +121,8 @@ layout
   top: 0;
   width: 100%;
   height: 100vh;
-  /* opacity: 0.15; */
 }
 .header-title {
-  /* margin: 292px auto; */
   background-size: 100%;
   color: #fff;
   font-family: "linotype-didot", serif;
@@ -133,12 +133,9 @@ layout
   text-align: center;
 }
 .first {
-  /* bottom: 0;
-  right: 0;
-  position: absolute; */
-  font-size: 18px;
-  font-weight: 300;
-  opacity: .6;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: .9;
 }
 
 .header-img {
@@ -178,7 +175,7 @@ nav
 }
 
 .gnav-inner {
-  padding: 15px 40px;
+  padding: 15px 0px;
 }
 
 .gnav-list {
@@ -237,9 +234,8 @@ Works
 }
 
 .works-item {
-  width: 31.74603%;
-  margin-right: 1.58730%;
-  margin-bottom: 40px;
+  width: 25%;
+  padding: 8px;
   color: #333;
 }
 
@@ -332,12 +328,16 @@ Works
   margin-top: 40px;
 }
 .career {
-  display: flex;
+  /* display: flex; */
   margin-top: 60px;
 }
 .career p {
-  width: 50%;
+  /* width: 50%; */
   padding: 0 10px;
+}
+
+.a-font {
+  text-align: center;
 }
 
 /*--------------------------------
