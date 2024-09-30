@@ -483,8 +483,6 @@ Works
   }
   .header-img {
     background-image: url("../img/header-img-SP.jpg"); /* 画像 */
-    position: absolute;
-    top: 0;
   }
 
   /* レイアウト */
@@ -507,8 +505,11 @@ Works
   }
 
   .header-title {
-    font-size: 60px;
+    font-size: 32px;
     margin-bottom: 10px;
+  }
+  .first {
+    font-size: 16px;
   }
 
   /*  下層ページのheader */
@@ -628,7 +629,7 @@ Works
 
   /* Works */
   .works {
-    margin-top: 900px;
+    margin-top: 10px;
   }
 
   .works-name {
@@ -638,7 +639,7 @@ Works
   .works-list {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .works-item {
