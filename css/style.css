@@ -290,9 +290,6 @@ Works
   text-align: center;
   margin: 0 auto;
 }
-.skill-img>i {
-  /* font-size: 48px; */
-}
 
 .skill-body {
   margin: 5px;
@@ -450,9 +447,6 @@ Works
   margin-bottom: 80px;
 }
 
-.article-info-title {
-  /* font-size: 15px; */
-}
 
 .article-body img {
   margin-bottom: 30px;
@@ -516,6 +510,9 @@ Works
   .header-title {
     font-size: 32px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-right: 80px;
+  }
   }
   .first {
     font-size: 16px;
@@ -530,9 +527,6 @@ Works
     font-family: "Dancing Script", cursive;
     /* font-size: 24px; */
   }
-  .sub-header-subtitle {
-    /* font-size: 14px; */
-  }
 
   /* グローバルナビ */
   .gnav .inner {
@@ -543,16 +537,8 @@ Works
     height: 50px;
   }
 
-  .gnav-logo {
-    /* font-size: 15px; */
-  }
-
   .gnav-item:not(:last-child) {
     margin-right: 10px;
-  }
-
-  .gnav-item a {
-    /* font-size: 12px; */
   }
 
   .gnav-item a:after {
@@ -724,5 +710,4 @@ Works
 
 .article-img {
   width: 100%;
-}
 }
