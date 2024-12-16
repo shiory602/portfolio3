@@ -137,7 +137,9 @@ layout
   font-style: normal;
   text-transform: uppercase;
   font-size: 56px;
-  text-align: center;
+  /* text-align: center; */
+  text-align: right;
+  margin-right: 80px;
 }
 .first {
   font-size: 20px;
@@ -149,7 +151,7 @@ layout
   margin-top: -24px;
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/header-img.jpg"); /* 画像 */
+  background-image: url("../img/header-image-PC.jpg"); /* 画像 */
   background-size: cover;               /* 全画面 */
   background-attachment: fixed;         /* 固定 */
   background-position: center center;
