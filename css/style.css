@@ -254,9 +254,6 @@ Works
   opacity: .9;
 }
 
-/* .works-item:nth-of-type(3n) {
-  margin-right: 0;
-} */
 
 .works-img img {
   border: 1px solid #e6e6e6;
@@ -513,7 +510,7 @@ Works
     text-align: center;
     margin-right: 0px;
   }
-  }
+
   .first {
     font-size: 16px;
   }
@@ -710,4 +707,5 @@ Works
 
 .article-img {
   width: 100%;
+}
 }
